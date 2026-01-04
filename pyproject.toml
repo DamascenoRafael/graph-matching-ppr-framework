@@ -1,0 +1,13 @@
+[project]
+name = "graph-matching-ppr-framework"
+version = "1.0.0"
+description = "Personalized PageRank Fingerprint Framework for Seedless Graph Matching"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib==3.9.2",
+    "networkx==3.3",
+    "notebook==7.1.2",
+    "numpy==1.26.4",
+    "scipy==1.13.0",
+]
