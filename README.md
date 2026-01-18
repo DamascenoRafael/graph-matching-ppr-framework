@@ -43,7 +43,7 @@ uv run --with jupyter jupyter lab
 
 When porting the code to this repository, some bugs were fixed and certain equations were updated, which may affect previously reported results. The equations shown below reflect these revisions; for the original formulations and their explanations, please refer to the dissertation.
 
-**Equation 3.5**: Distance between two sequences of PPR values, where the viewpoint and vertex of interest are different. Amortization is $`\sigma^(t-1)`$, no longer $`\sigma^(t-t^*)`$.
+**Equation 3.5**: Distance between two sequences of PPR values, where the viewpoint and vertex of interest are different. Amortization is $`\sigma^{t-1}`$, no longer $`\sigma^{t-t^*}`$.
 
 ```math
     d'(
