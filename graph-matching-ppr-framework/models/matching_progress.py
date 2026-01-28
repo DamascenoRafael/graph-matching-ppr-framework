@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+import numpy as np
 
 
 @dataclass
@@ -6,7 +7,7 @@ class MatchingProgress:
     correct_matches: int
     matching_size: int
     max_possible_matches: int
-    match_ratio: float
+    match_ratio: np.float64
 
     @staticmethod
     def header() -> str:

@@ -180,7 +180,7 @@ class Framework:
     def _matching_progress(self, matching: list[NodePair], expected_matching_size: int) -> MatchingProgress:
         correct_matches = self._evaluate_matching(matching)
         max_possible_matches = self._max_possible_matches(expected_matching_size)
-        match_ratio = correct_matches / len(matching)
+        match_ratio = np.float64(correct_matches) / len(matching)
         return MatchingProgress(
             correct_matches=correct_matches,
             matching_size=len(matching),
